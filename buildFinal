@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo Building final.cpp
+g++ AnalogIn.cpp GPIO.cpp final.cpp -o Final -lpthread
+echo Done Compiling 
